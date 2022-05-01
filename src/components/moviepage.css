@@ -1,0 +1,73 @@
+.topdiv {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .topdiv > input {
+
+} */
+.topdiv > input[type="text"],
+select {
+  width: 30%;
+  /* height: 20px; */
+  /* width: 100%; */
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.showmovie {
+  background-color: #33363c;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.showmovie > a {
+  text-decoration: none;
+}
+.showmovie > a > div {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin: 15px;
+  width: 200px;
+  height: 300px;
+  color: white;
+  background-color: #131926;
+  transition: 2s;
+  /* color: red; */
+}
+.showmovie > a > div:hover {
+  height: 210px;
+}
+.showmovie > a > div > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  /* margin-bottom: 10px; */
+}
+
+.showmovie > a > div > p {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.rd {
+  /* font-weight: lighter; */
+  color: red;
+  font-weight: 1000;
+}
+/* .tdiv {
+  height: 20%;
+  background-color: royalblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

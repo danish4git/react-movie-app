@@ -1,0 +1,51 @@
+.mcdiv {
+  /* background-color: brown; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.mcimage {
+  width: 40%;
+  /* background-color: aqua; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mcimage > img {
+  width: 70%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: 2s;
+
+  /* height: 80%; */
+}
+.mcimage > img:hover {
+  width: 80%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+  /* height: 80%; */
+}
+
+.mcbot {
+  width: 50%;
+  background-color: rgb(48, 45, 45);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.mcbot > p {
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.mcbot > p:hover {
+  color: red;
+}
